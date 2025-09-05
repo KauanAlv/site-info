@@ -1,0 +1,49 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* Essa parte precisa sempre deixar ativada */
+}
+body {
+    background-image: linear-gradient(to right, rgb(16, 16, 202), rgb(12, 183, 222));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+h1 {
+    font-size: 128px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: aliceblue;
+}
+.destaque{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 12px 20px;
+    transition: 1.5s;
+}
+.destaque:hover{
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+}
+.social-container{
+    display: flex; /* sempre entende como linha, vai deixar um retângulo com tudo um do lado do outro */
+    justify-content: center;
+    gap: 50px; /* espaço entre os elementos */
+}
+.social-container img{
+    width: 60px;
+}
